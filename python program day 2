@@ -1,0 +1,31 @@
+# Variables
+name = "Harsh"
+age = 20
+
+# Data Types
+print(type(name))
+print(type(age))
+
+# Operators
+a = 10
+b = 5
+print("Addition:", a + b)
+print("Multiplication:", a * b)
+
+# For Loop
+print("For Loop:")
+for i in range(1, 6):
+    print(i)
+
+# While Loop
+print("While Loop:")
+count = 1
+while count <= 5:
+    print(count)
+    count += 1
+
+# Function
+def greet(name):
+    return "Hello, " + name + "!"
+
+print(greet("Harsh"))
